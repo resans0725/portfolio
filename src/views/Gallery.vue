@@ -76,7 +76,11 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, rgb(252, 252, 252) 0%, rgb(0, 1, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgb(251, 143, 35) 0%,
+    rgb(243, 231, 21) 100%
+  );
   color: #fff;
   text-align: center;
   #gallery_searchbar {
