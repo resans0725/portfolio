@@ -1,6 +1,7 @@
 <template>
   <div id="links_container">
-    <h2 class="links-title">リンク</h2>
+    <!-- <h2 class="links-title">link</h2> -->
+    <img id="link_img" src="../assets/link.png" alt="" />
     <div class="links-grid">
       <a
         v-for="link in links"
@@ -14,13 +15,13 @@
         <span class="link-name">{{ link.name }}</span>
       </a>
     </div>
-    <h1 class="connect">問い合わせ</h1>
-    <div class="link-card email-card">
+    <!-- <h1 class="connect">contact</h1> -->
+    <!-- <div class="link-card email-card">
       <a :href="'mailto:' + email" class="email-link">
         <img src="@/assets/mail.png" alt="Email Icon" />
         <span class="link-name-email">{{ email }}</span>
       </a>
-    </div>
+    </div> -->
   </div>
 </template>
 

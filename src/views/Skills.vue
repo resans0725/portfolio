@@ -1,6 +1,7 @@
 <template>
   <div id="skills_container">
-    <h2 class="skills-title">スキルセット</h2>
+    <!-- <h2 class="skills-title">~ SKILL SET ~</h2> -->
+    <img id="skill_img" src="../assets/skill.png" alt="" />
     <div class="skills-grid">
       <div
         v-for="skill in skills"
@@ -102,6 +103,10 @@ export default {
   );
   color: #333;
   text-align: center;
+}
+
+.skill_img {
+  width: 100px;
 }
 
 .skills-title {

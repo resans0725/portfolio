@@ -1,6 +1,7 @@
 <template>
   <div id="gallery_container">
-    <h2>- Gallery -</h2>
+    <!-- <h2>~ Gallery gallery~</h2> -->
+    <img id="gallery_img" src="../assets/gallery.png" alt="" />
     <input
       id="gallery_searchbar"
       type="text"
@@ -29,19 +30,22 @@ export default {
       disp_cards: [],
       cards: [
         {
-          title: "成果１",
-          description: "成果１の説明",
-          // image: require("../gallery/○○○.png"),
+          title: "Oneday Task",
+          description:
+            "大学生時代に初めてAppleStoreにリリースした第一弾「OnedayTask」簡単に1日のタスクを追加してチェックして消せるアプリ",
+          image: require("../assets/onedayTask.png"),
         },
         {
-          title: "成果2",
-          description: "成果2の説明",
-          // image: require("../gallery/○○○.png"),
+          title: "Hitoted",
+          description:
+            "大学生時代の第二弾「Hitoted」コロナ禍にお店などで店内の人数を数えてる店舗が多く、簡単に人数制限のカウントできるアプリを作ってみようと思い、作成。",
+          image: require("../assets/Hitoted.png"),
         },
         {
-          title: "成果3",
-          description: "成果3の説明",
-          // image: require("../gallery/○○○.png"),
+          title: "Topic Throw",
+          description:
+            "大学生時代の第三弾「TopicThrow」食事に行く際や何かの交流するときに会話が途切れないように、シチュエーションに沿った話題を提供してくれるアプリ。",
+          image: require("../assets/topicThrow.png"),
         },
       ],
     };
@@ -121,9 +125,10 @@ export default {
         width: 100%;
         height: 250px;
         border-radius: 10px 10px 0 0;
+        object-fit: cover;
       }
       .card_description {
-        background-color: #fff;
+        background-color: #322e2e;
         width: 100%;
         height: 250px;
         padding: 10px;
@@ -135,7 +140,7 @@ export default {
         transition: 0.3s;
         &:hover {
           opacity: 1;
-          background-color: rgba($color: #fff, $alpha: 0.9);
+          background-color: rgba($color: #070606, $alpha: 0.9);
         }
       }
       .card_title {
