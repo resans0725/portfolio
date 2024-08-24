@@ -1,7 +1,7 @@
 {
   "hosting": {
     "site": "nagai-ryo",
-    "public": "dists",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
