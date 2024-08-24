@@ -25,7 +25,8 @@
           <h2>bravesoft 表彰歴</h2>
           <p>
             2021年から半年に一度優秀な成果を残して選ばれた12名の社員に賞と賞金が贈られる制度ができて、これまで受賞した一覧です。<br />
-            ・2023年H2 Best Growth Award(成長賞) 受賞
+            ・2023年H2 Best Growth Award(成長賞) 受賞<br />
+            ・2024年H1 Best Hacker Award(エンジニア賞) 受賞
           </p>
           <h2>プログラミングを始めたきっかけ</h2>
           <p>
@@ -88,7 +89,7 @@ export default {
 
 #profile_container {
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   display: flex;
   align-items: center;
   justify-content: center;
